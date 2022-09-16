@@ -32,7 +32,7 @@ for (let i = 0; i < 8; i++) {
   console.log(`Mám rád javascript po ${i}!`);
 }
 
-const name = 'Martin'.split('').reverse();
+const name = 'Martin'.split('').reverse().join('');
 for (let i = 0; i < 3; i++) {
   console.log(name);
 }
