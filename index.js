@@ -67,16 +67,14 @@ switch (operace) {
 console.log(a < 0 ? 'Záporné' : 'Kladné');
 
 //-------------------5----------------
-const arr = [3, 5, 7, 8, 11, 12, 13, 16, 17, 18]
-  .filter(i => i % 2 === 0)
-
-console.log(arr)
+const arr = [3, 5, 7, 8, 11, 12, 13, 16, 17, 18].filter((i) => i % 2 === 0);
+console.log(arr);
 
 //-------------------5----------------
-const myName = 'Martin Prusa'.split(' ')
+const myName = 'Martin Prusa'.split(' ');
 
-console.log(`Jmeno: ${myName[0]}`)
-console.log(`Prijmeni: ${myName[1]}`)
-console.log(`Inicialy: ${myName.map(i => i[0]).join('')}`)
+console.log(`Jmeno: ${myName[0]}`);
+console.log(`Prijmeni: ${myName[1]}`);
+console.log(`Inicialy: ${myName.map((i) => i[0]).join('')}`);
 
 //------------------6----------------------
