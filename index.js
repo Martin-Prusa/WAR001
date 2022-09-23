@@ -74,7 +74,7 @@ console.log(arr);
 const myName = 'Martin Prusa'.split(' ');
 
 console.log(`Jmeno: ${myName[0]}`);
-console.log(`Prijmeni: ${myName[1]}`);
-console.log(`Inicialy: ${myName.map((i) => i[0]).join('')}`);
+console.log(`Prijmeni: ${myName[myName.length - 1]}`);
+console.log(`Inicialy: ${myName[0][0]}${myName[myName.length - 1][0]}`);
 
 //------------------6----------------------
